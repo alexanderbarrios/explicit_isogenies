@@ -16,7 +16,7 @@ This code was written on SageMath, and the repository consists of 6 files:
 
 (6) Verification_of_Lemma_5_3.ipynb
 
-File (1) and (2) contain the definitions that are called by (3), (4), and (5).
+File (1) and (2) contain the definitions that are called by (3), (4), (5), and (6).
 
 File (3) verifies Proposition 3.1 and Remark 3.2.
 

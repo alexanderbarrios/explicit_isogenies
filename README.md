@@ -1,5 +1,5 @@
 # Code for explicit isogenies
-This repository contains the code that verifies some of the results of the paper *Explicit classification of isogeny graphs of rational elliptic curves* by Alexander Barrios. The codes are written by the author as well.
+This repository contains the code that verifies some of the results of the paper *Explicit classification of isogeny graphs of rational elliptic curves* by Alexander Barrios.
 
 
 This code was written on SageMath, and the repository consists of 6 files:

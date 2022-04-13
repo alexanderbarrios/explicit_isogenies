@@ -147,21 +147,21 @@ def calC10_4(t,d):
 	A=(-270000) * d^2 * (t^2 + 4) * (t^6 - 4*t^5 + 16*t + 16)
 	B=(-54000000) * d^3 * (t^2 - 2*t - 4) * (t^2 - 2*t + 2) * (t^2 + 4)^2 * (t^4 - 2*t^3 - 6*t^2 - 8*t - 4)
 	return EllipticCurve([A,B])
-def calC11_1(t,d):
-	A=(-1149984) * d^2
-	B=(-487018224) * d^3
-	return EllipticCurve([A,B])
-def calC11_2(t,d):
-	A=(-9504) * d^2
-	B=(365904) * d^3
-	return EllipticCurve([A,B])
-def calC11_3(t,d):
+def calC11_1(d):
 	A=(-395307) * d^2
 	B=(373960422) * d^3
 	return EllipticCurve([A,B])
-def calC11_4(t,d):
+def calC11_2(d):
 	A=(-38907) * d^2
 	B=(-2953962)  * d^3
+	return EllipticCurve([A,B])
+def calC11_3(d):
+	A=(-1149984) * d^2
+	B=(-487018224) * d^3
+	return EllipticCurve([A,B])
+def calC11_4(d):
+	A=(-9504) * d^2
+	B=(365904) * d^3
 	return EllipticCurve([A,B])
 def calC12_1(t,d):
 	A=(-48) * d^2 * (t^2 + 3) * (t^6 + 225*t^4 - 405*t^2 + 243)
